@@ -20,3 +20,5 @@ Xi Li
 
 📄 [Download the full report (PDF)](./report.pdf)
 📄 [Download the description (PDF)](./project_description.pdf)
+
+(Note: GitHub may not preview this PDF correctly — please download and open locally.)*
