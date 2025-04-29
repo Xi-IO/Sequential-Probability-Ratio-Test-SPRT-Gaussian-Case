@@ -18,3 +18,5 @@ The implementation is based on solving renewal-type Fredholm integral equations 
 ## Author
 Xi Li
 
+📄 [Download the full report (PDF)](./report.pdf)
+📄 [Download the description (PDF)](./project_description.pdf)
