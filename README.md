@@ -10,15 +10,6 @@ This R script numerically solves the integral equations for computing the Averag
 ## Theory
 The implementation is based on solving renewal-type Fredholm integral equations numerically for the Gaussian-vs-Gaussian scenario.
 
-## Files
-- `sprt_simulation.R`: Core numerical routine and visualization script
-- `report.pdf`: Written summary with figures and interpretation
-- `project_description.pdf`: Assignment prompt
-
 ## Author
 Xi Li
 
-📄 [Download the full report (PDF)](./report.pdf)
-📄 [Download the description (PDF)](./project_description.pdf)
-
-(Note: GitHub may not preview this PDF correctly — please download and open locally.)*
