@@ -1,34 +1,20 @@
-# Sequential Probability Ratio Test (SPRT) — Gaussian Case
+# SPRT Gaussian Simulation (Sequential Analysis)
 
-This project implements a numerical solution to the performance analysis of the SPRT for testing a Gaussian mean, following the method described in Moustakides et al. (2011). It was completed as part of MATH 538 — Sequential Analysis at Binghamton University.
+This R script numerically solves the integral equations for computing the Average Sample Number (ASN) of a Sequential Probability Ratio Test (SPRT), using the collocation method proposed by Moustakides et al. (2011). It was developed as part of a graduate-level Sequential Analysis course.
 
-## 📊 Summary
+## Features
+- Computes Wald's decision boundaries based on desired type I/II error
+- Numerically computes ASN(θ) across θ ∈ [0, 0.5]
+- Plots ASN curves under different (α₀, α₁) setups
 
-We analyze the performance of SPRT under different error probabilities (α₀, α₁) and compute:
+## Theory
+The implementation is based on solving renewal-type Fredholm integral equations numerically for the Gaussian-vs-Gaussian scenario.
 
-- Wald's approximate decision boundaries
-- Operating Characteristics (OC)
-- Average Sample Number (ASN) curves for θ ∈ [0, 0.5]
-- Comparison with fixed-sample Neyman–Pearson test
-
-## 🧮 Methods
-
-- Solves integral equations governing OC(θ) and ASN(θ) using piecewise constant collocation
-- Uses Gaussian-against-Gaussian likelihood ratios
-- Plots ASN(θ) under different α configurations
-
-## 📁 Files
-
-- `sprt_simulation.R`: R script to compute ASN numerically
+## Files
+- `sprt_simulation.R`: Core numerical routine and visualization script
 - `report.pdf`: Written summary with figures and interpretation
-- `m538_project_description.pdf`: Assignment prompt
+- `project_description.pdf`: Assignment prompt
 
-## 🔗 References
-
-- Moustakides, G. V., Polunchenko, A. S., & Tartakovsky, A. G. (2011). *A numerical approach to performance analysis of quickest change-point detection procedures*. Statistica Sinica.
-- Wald, A. (1947). *Sequential Analysis*. Wiley.
-
-## 👤 Author
-
-**Xi Li**  
+## Author
+Xi Li
 
